@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* font-family: 'DM Serif Display', serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Bebas Neue', cursive;  */
+    /* font-family: 'Unna', serif; */
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    /* color: rgb(190,0,39); */
+    /* font-size: 14pt; */
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    background-color: rgb(243,218,227);
+}
+
+.nav ul {
+    margin: 0;
+    /* padding: 1em; */
+}
+
+.nav li {
+    display: inline;
+    /* font-size: 20pt; */
+}
+
+.nav a {
+    display: inline-block;
+    
+    /* color: rgb(190,0,39); */
+    /* color: white; */
+    /* color: black; */
+    font-weight: 300;
+    color: rgb(190,0,39);
+    text-decoration: none;
+    padding: 0 0 0.2em;
+    /* padding: 0 0 2em; */
+}
+
+.main-nav {
+    text-align: center;
+    /* padding: 0 0 0.3em; */
+    /* padding: 1em 0; */
+    font-size: 1.2em;
+    border-bottom: 3px solid rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.8);
+    margin: 1em 0 5em;
+}
+
+.main-nav li {
+    padding: 0 0.15em;
+}
+.nav a:hover {
+    background-color: rgba(255,255,255,0.8);
+    font-weight: 400;
+    font-size: 1em;
+
+}
+
+.main-header {
+    background-color: rgb(243,218,227);
+    background-size: cover;
+    /* padding-bottom: 1px; */
+    padding: 1px;
+}
+
+.logo {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    color: rgb(190,0,39);
+}
+
+.content-section {
+    padding: 0 0;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 950px;
+    font-size: 1.2em;
+    color: rgb(15, 15, 15);
+    margin: 0 auto;
+    /* padding: .5em 0; */
+    padding: 1.5em;
+
+    font-weight: 300;
+ 
+}
+
+.about {
+    float: right; 
+    height: 400px;
+    margin: 0 15px;
+}
+
+.portraitright {
+    float: right; 
+    height: 12em;
+    /* margin: 0 15px; */
+}
+.portraitleft {
+    float: left; 
+    height: 12em;
+    /* margin: 0 15px; */
+}
+
+.main-footer {
+    background-color: rgb(243,218,227);
+    
+    padding: .25em 0;
+    font-size: 1em;
+}
+
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: rgb(190,0,39);
+    border: 2px solid rgba(255,255,255,.3);
+    background-color: rgba(255,255,255,.1);
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255,255,255,.3); 
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    font-size: 3.5em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.scarf-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin: 1em;
+}
+
+.scarf-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    font-weight: bold;
+    width: 30%;
+}
+
+.tour-color {
+    width: 48%;
+}
+
+.tour-btn {
+    max-width: 20%;
+}
+
+.btn-primary {
+    color: rgb(190,0,39); 
+    background-color:  rgb(243,218,227);
+    border:none;
+    border-radius: .3em;
+    font-weight: 500;;
+}
+
+.btn-primary:hover {
+    background-color: rgb(241, 207, 217);
+}
+
+.penelope {
+    display: inline-block;
+    margin: 0;
+    /* margin: 2em auto; */
+    height: 2.8em;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 15%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cart-quantity {
+    width: 40%;
+}
+
+.cart-item-title {
+    margin: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 85px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: rgb(190,0,39);
+    border:none;
+    border-radius: .3em;
+    font-weight: lighter;
+}
+
+.btn-danger:hover {
+    background-color: rgb(175,0,24);
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(190,0,39);
+    background-color: rgb(243,218,227);
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border-bottom: none;
+}
+
+.cart-total {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    font-size: 1.2em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.landingpage-bg {
+    background-image: url("images/TeresaJalousie.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.landing {
+    font-size: 3em;
+    background-color: rgba(255,255,255,.5); 
+}
+
+.landing a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.o6 {
+    opacity: 0.6;
+}
+
+.centered {
+    text-align: center;
+}
+
+.PictureWir {
+    max-width: 100%;
+}
+
+.whitened {
+    background-color: rgba(255,255,255,0.8);
+}
+
+.flexxx {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flexxx-center {
+    justify-content: center;
+}
+
+.FlexxxContent3 {
+    max-width: 31%;
+}
+
+.FlexxxContent2 {
+    max-width:47%;
+}
+
+.penelored {
+    color: rgb(190,0,39);
+}

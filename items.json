@@ -1,0 +1,28 @@
+{
+    "scrunchies": [
+        {
+            "id": 1,
+            "name": "eleonora",
+            "price": 1000,
+            "imgName": "product1.PNG"
+        },
+        {
+            "id": 2,
+            "name": "patchwork",
+            "price": 1500,
+            "imgName": "product2.PNG"
+        },
+        {
+            "id": 3,
+            "name": "velvet black",
+            "price": 1200,
+            "imgName": "product3.PNG"
+        },
+        {
+            "id": 4,
+            "name": "dotted pink",
+            "price": 1000,
+            "imgName": "product4.PNG"
+        }
+    ]
+}

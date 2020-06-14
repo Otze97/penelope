@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>penelopé | SHOP</title>
+    <meta name="description" content="Das ist die Beschreibung">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" defer></script>
+</head>
+
+<body>
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=AcN3TmCAIVMGhGL8-QXhvjM5DbK8W_c5991-qj2giHvS0-KIuAXReXOjAiCsRhTvxGZgAM-mZaP58Lnh&currency=EUR"></script>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">#showyourinnerpenelope</a></li>
+                <li><a href="store.html">SHOP</a></li>
+                <li><a href="https://www.google.de">pepe e penelopé</a></li>
+            </ul>
+        </nav>
+        <img class="penelope" src="images/penelope500px.png" />
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header">Scrunchies</h2>
+        <div class="shop-items">
+            <% items.scrunchies.forEach(function(item) { %>
+            <div class="shop-item" data-item-id="<%= item.id %>">
+                <span class="shop-item-title"><%= item.name %></span>
+                <img class="shop-item-image" src="images/<%= item.imgName %>">
+                <div class="shop-item-details">
+                    <span class="shop-item-price"><%= item.price / 100 %> €</span>
+                    <button class="btn btn-primary shop-item-button" type="button">In den Einkaufswagen</button>
+                </div>
+            </div>
+            <% }) %>
+
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Einkaufswagen</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Item</span>
+            <span class="cart-price cart-header cart-column">Preis</span>
+            <span class="cart-quantity cart-header cart-column">Anzahl</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Gesamt</strong>
+            <span class="cart-total-price">0 €</span>
+        </div>
+        <!-- original button -->
+        <!-- <button class="btn btn-primary btn-purchase" type="button">Kaufen</button> -->
+        <br/>
+        <br/>
+        <div id="paypal-button-container"></div>
+
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3>acc.design<br />upcycled | made by hand</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.instagram.com/chouchou.penelope/" target="_blank">
+                        <img src="images/instalogo.png" style="height: 3rem;">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

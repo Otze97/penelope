@@ -1,0 +1,6 @@
+changed in How To Setup Payments With Node.js And Stripe 13:20
+load() ==> config()
+
+shop ==> store
+
+Währung $?!
